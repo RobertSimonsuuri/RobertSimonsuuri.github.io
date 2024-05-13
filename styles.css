@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 50px; 
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+    text-decoration: underline; /* Add an underline on hover */
+    transition: color 0.7s;
+}
+
+
+.banner {
+    background: url('banner-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.banner h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+
+}
+
+.featured-games {
+    padding: 5px 20px;
+    margin: 50px;
+}
+
+.game-list1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.game-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+}
+
+.game a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+.game a:hover {
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+.game img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game img:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+}
+
+img {
+    width: 100%;
+}
+
+/*game styles*/
+
+.games-page .banner {
+    padding: 20px 20px; 
+    background-image: url('games-banner.jpg'); 
+}
+
+.games-page .game {
+    width: 250px; 
+    margin: 15px; 
+    background-color: #222; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.games-page .game:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.games-page .game img {
+    width: 100%; 
+    height: auto; 
+}
+
+.games-page .game h3 {
+    color: #ffcc00;
+}
+
+/*about styles*/
+
+.about-page p {
+    margin-bottom: 10px;
+}
+
+.about-page img {
+    display: block;
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
+
+.team {
+    padding: 10px 10px;
+    width: 100%; 
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto; 
+}
+
+.about-content {
+    font-size: x-large;
+    text-align: center;
+    
+}
